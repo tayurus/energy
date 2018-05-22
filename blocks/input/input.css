@@ -1,0 +1,42 @@
+.input{
+    border: none;
+    background-color: #fff;
+    color: #b4b4b4;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    outline: none;
+    padding: 9px 11px 10px 15px;
+    width: 100%;
+}
+
+.input_textarea{
+    height: 83px;
+    resize: none;
+    margin: 0px;
+}
+
+#agree{
+    height: 0px;
+    width: 0px;
+}
+
+.input_checbox{
+    padding: 0px;
+    width: 43px;
+    height: 37px;
+    margin: 0px;
+    line-height: 0px;
+    position: relative;
+    cursor: pointer;
+}
+
+[type='checkbox']:checked + .input_checbox::before{
+    position: absolute;
+    content: "";
+    width: 19px;
+    height: 19px;
+    background: url("img/checkbox.png") no-repeat center / contain;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

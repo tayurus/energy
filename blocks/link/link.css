@@ -1,3 +1,11 @@
 .link{
     text-decoration: none;
 }
+
+.link_agree{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 12.64px;
+    text-decoration: underline;
+}
