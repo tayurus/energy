@@ -1,0 +1,10 @@
+.square-row{
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+.square-row_small{
+    max-width: 900px;
+}

@@ -1,0 +1,13 @@
+.square{
+    min-height: 90px;
+    min-width: 100px;
+    width: 17vw;
+    height: 16vw;
+}
+
+.square_blue{
+    background-color: #2d3a67;
+}
+.square_red{
+    background-color: #6d1217;
+}

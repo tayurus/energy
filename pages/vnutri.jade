@@ -1,0 +1,23 @@
+doctype html
+html(lang="ru")
+    include ../blocks/head/head.jade
+    body.text-center.text-md-left(style="background:#000")
+        include ../blocks/header/header.jade
+            
+        main
+            .container-fluid
+                .row.align-items-end
+                    .col-xl-6.px-0
+                        .square-row.square-row_small
+                            .square
+                            .square(style="background:url('img/square-bg1.jpg') no-repeat center / cover")
+                            .square.square_blue
+                        .square-row.square-row_small
+                            .square.square_blue
+                            .square.square_red
+                            .square(style="background:url('img/square-bg1.jpg') no-repeat center / cover")
+                    .col-xl-6.px-0
+                        include ../blocks/article/article.jade
+        
+        
+        include ../blocks/footer/footer.jade

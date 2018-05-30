@@ -1,0 +1,39 @@
+.article{
+    background-color: #fff;
+    padding: 240px 60px;
+    position: relative;
+}
+
+.article__quotes{
+    width: 76px;
+    height: 57px;
+    background: url("img/quotes.png") no-repeat center / contain;
+    position: absolute;
+    right: 40px;
+    top: 137px;
+}
+
+.article__title{
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 17px;
+}
+
+.article__date{
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 57px;
+}
+
+.articel__text{
+    color: #b2b2b2;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+}
