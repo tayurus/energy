@@ -9,3 +9,22 @@
     line-height: 12.64px;
     text-decoration: underline;
 }
+
+.link__footer{
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 9px;
+}
+
+.link__webcomp{
+    color: #c5c5c5;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+@media (max-width:1200px),(max-device-width:1200px) {
+    .link__footer{
+        font-size: 15px;
+    }
+}
