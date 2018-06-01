@@ -30,10 +30,38 @@
     margin-bottom: 57px;
 }
 
-.articel__text{
+.article__text{
     color: #b2b2b2;
     font-size: 24px;
     font-weight: 300;
     line-height: 28px;
     text-align: center;
+}
+
+@media (max-width:1200px),(max-device-width:1200px) {
+    .article{
+        padding: 50px 30px;
+    }
+
+    .article__quotes{
+        right: 70px;
+        top: 105px;
+    }
+}
+@media (max-width:490px),(max-device-width:490px) {
+    .article{
+        padding: 20px 10px;
+    }
+
+    .article__quotes{
+        display: none;
+    }
+
+    .article__text{
+        font-size: 16px;
+    }
+
+    .article__date{
+        margin-bottom: 10px;
+    }
 }

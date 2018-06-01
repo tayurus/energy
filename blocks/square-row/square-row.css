@@ -8,3 +8,8 @@
 .square-row_small{
     max-width: 900px;
 }
+
+.square-row_withLinks{
+    background-color: #313337;
+    max-width: 100%;
+}

@@ -23,8 +23,44 @@
     font-weight: 300;
 }
 
+.link_article-slider{
+    color: #00a3eb;
+    font-size: 24px;
+    font-weight: 300;
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.link_square{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.link_square:hover{
+    text-decoration: none;
+    color: #969799;
+}
+
+.link_square-big{
+    font-size: 24px;
+    letter-spacing: 1.2px;
+}
+
 @media (max-width:1200px),(max-device-width:1200px) {
     .link__footer{
         font-size: 15px;
+    }
+}
+
+@media (max-width:590px),(max-device-width:590px) {
+    .link_square-big{
+        font-size: 18px;
+    }
+
+    .link_square {
+        font-size: 12px;
     }
 }

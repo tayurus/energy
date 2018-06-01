@@ -1,26 +1,26 @@
 doctype html
 html(lang="ru")
     include ../blocks/head/head.jade
-    body.text-center.text-md-left(style="background:#000")
+    body.text-center.text-md-left
         include ../blocks/header/header.jade
             
         main
-        
-        form.container
-            .row
-                .col-md-6
-                    input.input.mb-2(type="text", required, placeholder="Имя", name="")
-                    input.input.mb-2(type="text", required, placeholder="Телефон", name="") 
-                    input.input(type="text", placeholder="Email (по желанию)" name="")
-                .col-md-6
-                    textarea.input.input_textarea.mb-2(required, placeholder="Комментарий", name="")
-                    .d-flex.justify-content-between.align-items-center
-                        .position-relative
-                            input(type="checkbox", required, name="", id="agree")
-                            label.input.input_checbox(for="agree")
-                        span(href="#") Согласие на обработку 
-                        a.link.link_agree(href="#") персональных данных
-                        button.button.button_form OK
+            include ../blocks/article-slider/article-slider.jade
+            form.container
+                .row
+                    .col-md-6
+                        input.input.mb-2(type="text", required, placeholder="Имя", name="")
+                        input.input.mb-2(type="text", required, placeholder="Телефон", name="") 
+                        input.input(type="text", placeholder="Email (по желанию)" name="")
+                    .col-md-6
+                        textarea.input.input_textarea.mb-2(required, placeholder="Комментарий", name="")
+                        .d-flex.justify-content-between.align-items-center
+                            .position-relative
+                                input(type="checkbox", required, name="", id="agree")
+                                label.input.input_checbox(for="agree")
+                            span(href="#") Согласие на обработку 
+                            a.link.link_agree(href="#") персональных данных
+                            button.button.button_form OK
             
         
         include ../blocks/footer/footer.jade

@@ -14,31 +14,55 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 		<script src="script.js" defer></script>
 	</head>
-	<body style="background:#000" class="text-center text-md-left">
+	<body class="text-center text-md-left">
 		<noscript>
 			<p>Please enable Javascript</p>
 		</noscript>
-		<header class="header"></header>
-		<main></main>
-		<form class="container">
-			<div class="row">
-				<div class="col-md-6">
-					<input type="text" required placeholder="Имя" name="" class="input mb-2">
-					<input type="text" required placeholder="Телефон" name="" class="input mb-2">
-					<input type="text" placeholder="Email (по желанию)" name="" class="input">
+		<header><a href="#"><img src="img/logo.png" alt="Energy" class="header__logo"></a><img src="img/menu.png" alt="Меню" class="header__menu-icon"></header>
+		<div class="header-menu"><a href="#" class="header-menu__logo"><img src="img/logo.png" alt="Energy"></a>
+			<div class="header-menu__list"><a href="#" class="link header-menu__item"><span class="header-menu__index">01.</span><span class="header-menu__title">Главная</span></a><a href="#" class="link header-menu__item"><span class="header-menu__index">02.</span><span class="header-menu__title">О нас</span></a><a href="#" class="link header-menu__item"><span class="header-menu__index">03.</span><span class="header-menu__title">Наши услуги</span></a><a href="#" class="link header-menu__item"><span class="header-menu__index">04.</span><span class="header-menu__title">Фотогалерея</span></a><a href="#" class="link header-menu__item"><span class="header-menu__index">05.</span><span class="header-menu__title">Контакты</span></a></div>
+		</div>
+		<main>
+			<div class="article-slider owl-carousel owl-theme">
+				<div class="article-slider__item">
+					<div class="article-slider__quotes"></div>
+					<h3 class="articles-slider__title">Заголовок Вашей статьи</h3>
+					<div class="articles-slider__date">05.05.2018</div>
+					<div class="articles-slider__text">Вера Брежнева оказалась в центре международного скандала. Словесные баталии разгорелись на странице певицы в Instagram. При этом исполнительница задала невинный вопрос – есть ли у ее поклонников место, где они чувствуют себя как дома. Своим домом она считает Италию. В подтверждение своих слов артистка опубликовала фотографию, на которой запечатлелась на фоне древних руин на морском побережье. </div><a href="#" class="link link_article-slider">Далее</a>
 				</div>
-				<div class="col-md-6">
-					<textarea required placeholder="Комментарий" name="" class="input input_textarea mb-2"></textarea>
-					<div class="d-flex justify-content-between align-items-center">
-						<div class="position-relative">
-							<input type="checkbox" required name="" id="agree">
-							<label for="agree" class="input input_checbox"></label>
-						</div><span href="#">Согласие на обработку </span><a href="#" class="link link_agree">персональных данных</a>
-						<button class="button button_form">OK</button>
+				<div class="article-slider__item">
+					<div class="article-slider__quotes"></div>
+					<h3 class="articles-slider__title">Заголовок Вашей статьи</h3>
+					<div class="articles-slider__date">05.05.2018</div>
+					<div class="articles-slider__text">Вера Брежнева оказалась в центре международного скандала. Словесные баталии разгорелись на странице певицы в Instagram. При этом исполнительница задала невинный вопрос – есть ли у ее поклонников место, где они чувствуют себя как дома. Своим домом она считает Италию. В подтверждение своих слов артистка опубликовала фотографию, на которой запечатлелась на фоне древних руин на морском побережье. </div><a href="#" class="link link_article-slider">Далее</a>
+				</div>
+				<div class="article-slider__item">
+					<div class="article-slider__quotes"></div>
+					<h3 class="articles-slider__title">Заголовок Вашей статьи</h3>
+					<div class="articles-slider__date">05.05.2018</div>
+					<div class="articles-slider__text">Вера Брежнева оказалась в центре международного скандала. Словесные баталии разгорелись на странице певицы в Instagram. При этом исполнительница задала невинный вопрос – есть ли у ее поклонников место, где они чувствуют себя как дома. Своим домом она считает Италию. В подтверждение своих слов артистка опубликовала фотографию, на которой запечатлелась на фоне древних руин на морском побережье. </div><a href="#" class="link link_article-slider">Далее</a>
+				</div>
+			</div><a href="#" class="button_gray-border">Смотреть все</a>
+			<form class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<input type="text" required placeholder="Имя" name="" class="input mb-2">
+						<input type="text" required placeholder="Телефон" name="" class="input mb-2">
+						<input type="text" placeholder="Email (по желанию)" name="" class="input">
+					</div>
+					<div class="col-md-6">
+						<textarea required placeholder="Комментарий" name="" class="input input_textarea mb-2"></textarea>
+						<div class="d-flex justify-content-between align-items-center">
+							<div class="position-relative">
+								<input type="checkbox" required name="" id="agree">
+								<label for="agree" class="input input_checbox"></label>
+							</div><span href="#">Согласие на обработку </span><a href="#" class="link link_agree">персональных данных</a>
+							<button class="button button_form">OK</button>
+						</div>
 					</div>
 				</div>
-			</div>
-		</form>
+			</form>
+		</main>
 		<footer>
 			<div class="footer-wrapper row">
 				<div class="col-lg-3"><img src="img/logo.png" alt="Energy" class="d-block mx-auto my-3 my-lg-0"></div>
