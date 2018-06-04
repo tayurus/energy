@@ -1,0 +1,29 @@
+.service-row{
+  max-width: 1489px;
+  display: flex;
+}
+
+.service{
+  max-width: 300px;
+  max-height: 275px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service_bg_gray{
+  background-color: #a4a4a4;
+}
+
+.service__icon-photogallery{
+  width: 60px;
+  height: 60px;
+  background: url("img/photogallery.png") no-repeat center / contain;
+}
+
+.service_title{
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
