@@ -5,6 +5,34 @@ html(lang="ru")
         include ../blocks/header/header.jade
             
         main
+            .container
+                .row.justify-content-center
+                    .col-md-5.col-sm-12.col-lg-4.m-2.m-lg-0
+                        .preview
+                            a.preview__link(href="#")
+                            img.preview__img(src="img/preview1.jpg", alt="Превью новости")
+                            .preview__body
+                                .preview__title Заголовок Вашей статьи
+                                .preview__date 05.05.2018
+                                a.preview-add(href="#")
+                            
+                    .col-md-5.col-sm-12.col-lg-4.m-2.m-lg-0
+                        .preview
+                            a.preview__link(href="#")
+                            img.preview__img(src="img/preview2.jpg", alt="Превью новости")
+                            .preview__body
+                                .preview__title Заголовок Вашей статьи
+                                .preview__date 05.05.2018
+                                a.preview-add(href="#")
+                    .col-md-5.col-sm-12.col-lg-4.m-2.m-lg-0
+                        .preview
+                            a.preview__link(href="#")
+                            img.preview__img(src="img/preview3.jpg", alt="Превью новости")
+                            .preview__body
+                                .preview__title Заголовок Вашей статьи
+                                .preview__date 05.05.2018
+                                a.preview-add(href="#")
+                                                    
             include ../blocks/article-slider/article-slider.jade
             form.container
                 .row
