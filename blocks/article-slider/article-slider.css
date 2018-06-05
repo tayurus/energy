@@ -6,6 +6,7 @@
 
 .article-slider__item{
     position: relative;
+    padding: 0px 10px;
 }
 
 .article-slider__quotes{
@@ -56,4 +57,21 @@
 
 .article-slider .owl-next:hover, .article-slider .owl-prev:hover{
     background: transparent !important;
+}
+
+@media (max-width:1050px),(max-device-width:1050px) {
+  .articles-slider__title {
+    margin-bottom: 10px;
+  }
+
+  .articles-slider__date {
+    margin-bottom: 10px;
+}
+
+  .article-slider .owl-next{
+      right: 2%;
+  }
+  .article-slider .owl-prev{
+      left: 2%;
+  }
 }

@@ -4,6 +4,11 @@
     position: relative;
 }
 
+.article_about{
+  padding: 0px;
+  padding: 60px 0px;
+}
+
 .article__quotes{
     width: 76px;
     height: 57px;

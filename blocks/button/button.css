@@ -31,6 +31,13 @@ button {
   transition: 0.4s;
 }
 
+.button_small{
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 5px 10px;
+}
+
 .button_bottom{
   position: absolute;
   bottom: 10%;
