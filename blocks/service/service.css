@@ -1,14 +1,27 @@
 .service-row{
   max-width: 1489px;
   display: flex;
+  margin: 0px auto;
 }
 
 .service{
+  cursor: pointer;
+  width: 18vw;
+  height: 17vw;
   max-width: 300px;
   max-height: 275px;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+.service__title{
+  color: #b2b2b2;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .service_bg_gray{
@@ -21,9 +34,183 @@
   background: url("img/photogallery.png") no-repeat center / contain;
 }
 
-.service_title{
+.service__icon-planning{
+  width: 41px;
+  height: 83px;
+  background: url("img/planning.png") no-repeat center / contain;
+}
+
+.service__icon-manufacturing{
+  width: 41px;
+  height: 83px;
+  background: url("img/manufacturing.png") no-repeat center / contain;
+}
+
+.service__icon-install{
+  width: 52px;
+  height: 70px;
+  background: url("img/install.png") no-repeat center / contain;
+}
+
+.service__icon-service{
+  width: 44px;
+  height: 70px;
+  background: url("img/service.png") no-repeat center / contain;
+}
+
+.service__info_photogallery{
+  background: url("img/photogallery-bg.png") no-repeat center / cover;
+}
+.service__info_planning{
+  background: url("img/planning-bg.png") no-repeat center / cover;
+}
+.service__info_manufacturing{
+  background: url("img/manufacturing-bg.png") no-repeat center / cover;
+}
+.service__info_install{
+  background: url("img/install-bg.png") no-repeat center / cover;
+}
+.service__info_service{
+  background: url("img/service-bg.png") no-repeat center / cover;
+}
+
+.service__info{
+  position: absolute;
+  height: 0px;
+  width: 100%;
+  bottom: 0%;
+  left: 0%;
+  transition-duration: 0.7s;
+  transition-property: height;
+  font-size: 0px;
+}
+
+.service__info-title{
   color: #ffffff;
-  font-size: 60px;
+  font-size: 0px;
   font-weight: 700;
   text-transform: uppercase;
+  transform: rotate(-90deg) translateX(-50%);
+  position: absolute;
+  transform-origin: left;
+  left: 50%;
+  bottom: 50%;
+}
+
+.service__info .button_border-white{
+  padding: 0px;
+  font-size: 0px;
+}
+
+.service__info-icon{
+  display: none;
+  position: absolute;
+  bottom: 19%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.service:hover .service__info{
+  height: 929px;
+}
+
+.service:hover .button_border-white{
+  font-size: 24px;
+  padding: 14px 50px;
+}
+
+.service:hover .service__info-title{
+  font-size: 60px;
+}
+
+.service:hover .service__info-icon{
+  display: block;
+}
+
+.service__info_planning .service__info-icon{
+  width: 41px;
+  height: 83px;
+  background: url("img/planning-white.png") no-repeat center / contain;
+}
+.service__info_manufacturing .service__info-icon{
+  width: 41px;
+  height: 83px;
+  background: url("img/manufacturing-white.png") no-repeat center / contain;
+}
+.service__info_install .service__info-icon{
+  width: 41px;
+  height: 83px;
+  background: url("img/install-white.png") no-repeat center / contain;
+}
+.service__info_service .service__info-icon{
+  width: 41px;
+  height: 83px;
+  background: url("img/service-white.png") no-repeat center / contain;
+}
+
+@media (max-width:1300px),(max-device-width:1300px) {
+  .service:hover .button_border-white{
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+
+  .service:hover .service__info{
+    height: 629px;
+  }
+
+  .service:hover .service__info-title{
+    font-size: 38px;
+    bottom: 62%;
+  }
+}
+
+@media (max-width:767px),(max-device-width:767px) {
+  .service:hover .button_border-white {
+      font-size: 14px;
+      padding: 10px 20px;
+  }
+
+  .service__info-icon{
+    display: none !important;
+  }
+
+  .service:hover .service__info-title {
+    font-size: 30px;
+    bottom: 62%;
+  }
+
+  .service:hover .button_border-white{
+    transform-origin: 0%;
+    transform: rotate(-90deg);
+  }
+
+  .service:hover .service__info {
+    height: 460px;
+  }
+
+  .service__icon-service {
+    width: 30px;
+    height: 48px;
+  }
+
+  .service__icon-install {
+    width: 40px;
+    height: 42px;
+  }
+
+  .service__icon-manufacturing {
+    width: 33px;
+    height: 44px;
+  }
+
+  .service__icon-planning {
+    width: 32px;
+    height: 55px;
+  }
+
+  .service__icon-photogallery {
+    width: 39px;
+    height: 38px;
+  }
+
 }
