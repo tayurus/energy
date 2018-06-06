@@ -1,0 +1,32 @@
+.left{
+    position: relative;
+    min-width: 20vw;
+    max-width: 390px;
+    background: url("img/left-bg.jpg") no-repeat center / cover;
+}
+
+.left__menu{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    cursor: pointer;
+    width: 95px;
+    height: 95px;
+    background: #fff url('img/menu-black.png') no-repeat center / 49px 25px;
+}
+
+.left__search{
+    position: absolute;
+    right: 0%;
+    top: 95px;
+    cursor: pointer;
+    width: 95px;
+    height: 95px;
+    background: #fff url('img/search.png') no-repeat center / 32px 32px;
+}
+
+@media (max-width:767px),(max-device-width:767px) {
+    .left{
+        display: none;
+    }
+}

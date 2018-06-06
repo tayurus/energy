@@ -15,57 +15,67 @@
 		<script src="script.js" defer></script>
 	</head>
 	<body class="text-center text-md-left">
-		<noscript>
-			<p>Please enable Javascript</p>
-		</noscript>
-		<header><a href="#"><img src="img/logo.png" alt="Energy" class="header__logo"></a><img src="img/menu.png" alt="Меню" class="header__menu-icon"></header>
-		<div class="header-menu"><a href="#" class="header-menu__logo"><img src="img/logo.png" alt="Energy"></a>
-			<div class="header-menu__list"><a href="#" data-img="menu-main.jpg" class="link header-menu__item"><span class="header-menu__index">01.</span><span class="header-menu__title">Главная</span></a><a href="#" data-img="menu-about.jpg" class="link header-menu__item"><span class="header-menu__index">02.</span><span class="header-menu__title">О нас</span></a><a href="#" data-img="menu-services.jpg" class="link header-menu__item"><span class="header-menu__index">03.</span><span class="header-menu__title">Наши услуги</span></a><a href="#" data-img="menu-gallery.jpg" class="link header-menu__item"><span class="header-menu__index">04.</span><span class="header-menu__title">Фотогалерея</span></a><a href="#" data-img="menu-contacts.jpg" class="link header-menu__item"><span class="header-menu__index">05.</span><span class="header-menu__title">Контакты</span></a></div>
-		</div>
 		<main>
-			<div style="margin-top:400px;" class="container-fluid">
-				<div class="service__title">Наши услуги :</div>
-				<div class="service-row">
-					<div class="service service_bg_gray">
-						<div class="service__icon-photogallery"></div>
-						<div class="service__info service__info_photogallery">
-							<div class="service__info-title">Фотогалерея</div><a href="#" class="button_border-white button_bottom button_center">Подробнее</a>
-						</div>
-					</div>
-					<div class="service">
-						<div class="service__icon-planning"></div>
-						<div class="service__info service__info_planning">
-							<div class="service__info-title">Проектирование</div>
-							<div class="service__info-icon"></div><a href="#" class="button_border-white button_bottom button_center">Подробнее</a>
-						</div>
-					</div>
-					<div class="service">
-						<div class="service__icon-manufacturing"></div>
-						<div class="service__info service__info_manufacturing">
-							<div class="service__info-title">Производство</div>
-							<div class="service__info-icon"></div><a href="#" class="button_border-white button_bottom button_center">Подробнее</a>
-						</div>
-					</div>
-					<div class="service">
-						<div class="service__icon-install"></div>
-						<div class="service__info service__info_install">
-							<div class="service__info-title">Монтаж</div>
-							<div class="service__info-icon"></div><a href="#" class="button_border-white button_bottom button_center">Подробнее</a>
-						</div>
-					</div>
-					<div class="service">
-						<div class="service__icon-service"></div>
-						<div class="service__info service__info_service">
-							<div class="service__info-title">Обслуживание</div>
-							<div class="service__info-icon"></div><a href="#" class="button_border-white button_bottom button_center">Подробнее</a>
-						</div>
-					</div>
+			<div style="max-width:1920px" class="d-flex">
+				<div class="left">
+					<div class="left__menu"></div>
+					<div class="left__search"></div>
 				</div>
-			</div>
-			<div class="container-fluid px-0">
-				<div class="article article_about">
-					<h2 class="article__title">Миссия компании</h2>
-					<div class="article__text">Это компетентность и ответственность, сочетание высококвалифицированных технических специалистов и <br>проектно  - ориентированного менеджмента.<br>Наша специализация  - это проектирование умных инженерных сетей, производство и поставка оборудования ввода, распределения и управления (ГРЩ, УВР, ВРУ, ШНН, ПР и тд.) напряжением 0,4 кВ до 6300 А с системами автоматизации и диспетчеризации, а также консультации, шефмонтаж, монтаж и техническое обслуживание установленного и введенного в строй  инженерного оборудования ведущих отечественных и зарубежных производителей на объектах промышленного и гражданского строительства. <br>Наша стратегия - стремление к долговременному и взаимовыгодному сотрудничеству.<br>Наша компания - это объединение интересов наших заказчиков, поставщиков, собственных сотрудников и нашего общества.</div>
+				<div class="right">
+					<div class="top"> 
+						<div class="d-flex justify-content-between align-items-center"><a href="#"><img src="img/logo.png" alt="Energy" class="header__logo"></a>
+							<div class="top__switch"><span class="top__current">Рус.</span>
+								<div class="top__languages"><a href="#">Руc.</a><a href="#">Eng.</a></div>
+							</div>
+						</div>
+						<h1 class="top__title">Полный комплекс услуг<br><span>электроснабжения по выгодным ценам!</span></h1>
+						<button class="button_border-white">Заказать звонок</button>
+					</div>
+					<div class="container-fluid px-0 position-relative">
+						<div class="service__title">Наши услуги :</div>
+						<div class="service-row">
+							<div class="service service_bg_gray">
+								<div class="service__icon-photogallery"></div>
+								<div class="service__info service__info_photogallery">
+									<div class="service__info-title">Фотогалерея</div><a href="#" class="button_border-white button_bottom button_center">Подробнее</a>
+								</div>
+							</div>
+							<div class="service">
+								<div class="service__icon-planning"></div>
+								<div class="service__info service__info_planning">
+									<div class="service__info-title">Проектирование</div>
+									<div class="service__info-icon"></div><a href="#" class="button_border-white button_bottom button_center">Подробнее</a>
+								</div>
+							</div>
+							<div class="service">
+								<div class="service__icon-manufacturing"></div>
+								<div class="service__info service__info_manufacturing">
+									<div class="service__info-title">Производство</div>
+									<div class="service__info-icon"></div><a href="#" class="button_border-white button_bottom button_center">Подробнее</a>
+								</div>
+							</div>
+							<div class="service">
+								<div class="service__icon-install"></div>
+								<div class="service__info service__info_install">
+									<div class="service__info-title">Монтаж</div>
+									<div class="service__info-icon"></div><a href="#" class="button_border-white button_bottom button_center">Подробнее</a>
+								</div>
+							</div>
+							<div class="service">
+								<div class="service__icon-service"></div>
+								<div class="service__info service__info_service">
+									<div class="service__info-title">Обслуживание</div>
+									<div class="service__info-icon"></div><a href="#" class="button_border-white button_bottom button_center">Подробнее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="container-fluid px-0">
+						<div class="article article_about">
+							<h2 class="article__title">Миссия компании</h2>
+							<div class="article__text">Это компетентность и ответственность, сочетание высококвалифицированных технических специалистов и <br>проектно  - ориентированного менеджмента.<br>Наша специализация  - это проектирование умных инженерных сетей, производство и поставка оборудования ввода, распределения и управления (ГРЩ, УВР, ВРУ, ШНН, ПР и тд.) напряжением 0,4 кВ до 6300 А с системами автоматизации и диспетчеризации, а также консультации, шефмонтаж, монтаж и техническое обслуживание установленного и введенного в строй  инженерного оборудования ведущих отечественных и зарубежных производителей на объектах промышленного и гражданского строительства. <br>Наша стратегия - стремление к долговременному и взаимовыгодному сотрудничеству.<br>Наша компания - это объединение интересов наших заказчиков, поставщиков, собственных сотрудников и нашего общества.</div>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="article-slider owl-carousel owl-theme mb-5">

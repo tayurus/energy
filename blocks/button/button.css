@@ -23,6 +23,7 @@ button {
 .button_border-white {
   cursor: pointer;
   color: #ffffff;
+  background: transparent;
   font-size: 24px;
   font-weight: 700;
   border: 3px solid #ffffff;
