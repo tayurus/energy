@@ -12,7 +12,7 @@ $('.article-slider').owlCarousel({
     dots: false
 })
 
-$('.header__menu-icon').click(function(){
+$('.header__menu-icon, .left__menu').click(function(){
     $(".header-menu").addClass("header-menu_active");
 })
 
