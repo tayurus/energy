@@ -1,105 +1,126 @@
 doctype html
 html(lang="ru")
     include ../blocks/head/head.jade
-    body.text-center.text-md-left
-            
+    body.text-center.text-md-left(style="overflow-x:hidden;")
+
         main
             .d-flex(style="max-width:1920px")
                 include ../blocks/left/left.jade
-                    
+
                 .right
                     include ../blocks/top/top.jade
                     include ../blocks/service/service.jade
+
+                    .container-fluid
+                        .article.article_about
+                            h2.article__title Миссия компании
+                            .article__text Это компетентность и ответственность, сочетание высококвалифицированных технических специалистов и 
+                                br
+                                | проектно  - ориентированного менеджмента.
+                                br 
+                                | Наша специализация  - это проектирование умных инженерных сетей, производство и поставка оборудования ввода, распределения и управления (ГРЩ, УВР, ВРУ, ШНН, ПР и тд.) напряжением 0,4 кВ до 6300 А с системами автоматизации и диспетчеризации, а также консультации, шефмонтаж, монтаж и техническое обслуживание установленного и введенного в строй  инженерного оборудования ведущих отечественных и зарубежных производителей на объектах промышленного и гражданского строительства. 
+                                br
+                                | Наша стратегия - стремление к долговременному и взаимовыгодному сотрудничеству.
+                                br
+                                | Наша компания - это объединение интересов наших заказчиков, поставщиков, собственных сотрудников и нашего общества.
+
+            .d-flex.justify-content-between.my-5(style="max-width:1920px")
+                .title
+                    h2.title__text.title__text_rotateMinus90 статьи
+
+                .container_content
+                    include ../blocks/article-slider/article-slider.jade
+
+                    .container-fluid.mt-5
+                        .row.justify-content-center
+                            .col-md-5.col-sm-12.col-lg-4.m-2.m-lg-0
+                                .preview
+                                    a.preview__link(href="#")
+                                    img.preview__img(src="img/preview1.jpg", alt="Превью новости")
+                                    .preview__body
+                                        .preview__title Заголовок Вашей статьи
+                                        .preview__date 05.05.2018
+                                        a.preview-add(href="#")
+
+                            .col-md-5.col-sm-12.col-lg-4.m-2.m-lg-0
+                                .preview
+                                    a.preview__link(href="#")
+                                    img.preview__img(src="img/preview2.jpg", alt="Превью новости")
+                                    .preview__body
+                                        .preview__title Заголовок Вашей статьи
+                                        .preview__date 05.05.2018
+                                        a.preview-add(href="#")
+                            .col-md-5.col-sm-12.col-lg-4.m-2.m-lg-0
+                                .preview
+                                    a.preview__link(href="#")
+                                    img.preview__img(src="img/preview3.jpg", alt="Превью новости")
+                                    .preview__body
+                                        .preview__title Заголовок Вашей статьи
+                                        .preview__date 05.05.2018
+                                        a.preview-add(href="#")
+
+                .container__img.container__img_1
+
+            .d-flex.justify-content-between.my-5(style="max-width:1920px")  
+            
+            
+                .container__img.container__img_2  
+                
+                .container_content                    
+                    include ../blocks/article-slider/article-slider.jade
+
+                    .container.mt-5
+                        .row.justify-content-center
+                            .col-md-5.col-sm-12.col-lg-4.m-2.m-lg-0
+                                .preview
+                                    a.preview__link(href="#")
+                                    img.preview__img(src="img/preview4.jpg", alt="Превью новости")
+                                    .preview__body
+                                        .preview__title Заголовок Вашей статьи
+                                        .preview__date 05.05.2018
+                                        a.preview-add(href="#")
+
+                            .col-md-5.col-sm-12.col-lg-4.m-2.m-lg-0
+                                .preview
+                                    a.preview__link(href="#")
+                                    img.preview__img(src="img/preview5.jpg", alt="Превью новости")
+                                    .preview__body
+                                        .preview__title Заголовок Вашей статьи
+                                        .preview__date 05.05.2018
+                                        a.preview-add(href="#")
+                            .col-md-5.col-sm-12.col-lg-4.m-2.m-lg-0
+                                .preview
+                                    a.preview__link(href="#")
+                                    img.preview__img(src="img/preview6.jpg", alt="Превью новости")
+                                    .preview__body
+                                        .preview__title Заголовок Вашей статьи
+                                        .preview__date 05.05.2018
+                                        a.preview-add(href="#")
+                                    
+                .title
+                    h2.title__text.title__text_rotate90 новости
                     
-                    .container-fluid.px-0
-                      .article.article_about
-                          h2.article__title Миссия компании
-                          .article__text Это компетентность и ответственность, сочетание высококвалифицированных технических специалистов и 
-                            br
-                            | проектно  - ориентированного менеджмента.
-                            br 
-                            | Наша специализация  - это проектирование умных инженерных сетей, производство и поставка оборудования ввода, распределения и управления (ГРЩ, УВР, ВРУ, ШНН, ПР и тд.) напряжением 0,4 кВ до 6300 А с системами автоматизации и диспетчеризации, а также консультации, шефмонтаж, монтаж и техническое обслуживание установленного и введенного в строй  инженерного оборудования ведущих отечественных и зарубежных производителей на объектах промышленного и гражданского строительства. 
-                            br
-                            | Наша стратегия - стремление к долговременному и взаимовыгодному сотрудничеству.
-                            br
-                            | Наша компания - это объединение интересов наших заказчиков, поставщиков, собственных сотрудников и нашего общества.
-                                                    
-            include ../blocks/article-slider/article-slider.jade
-            
-            .container.mt-5
-                .row.justify-content-center
-                    .col-md-5.col-sm-12.col-lg-4.m-2.m-lg-0
-                        .preview
-                            a.preview__link(href="#")
-                            img.preview__img(src="img/preview1.jpg", alt="Превью новости")
-                            .preview__body
-                                .preview__title Заголовок Вашей статьи
-                                .preview__date 05.05.2018
-                                a.preview-add(href="#")
-                            
-                    .col-md-5.col-sm-12.col-lg-4.m-2.m-lg-0
-                        .preview
-                            a.preview__link(href="#")
-                            img.preview__img(src="img/preview2.jpg", alt="Превью новости")
-                            .preview__body
-                                .preview__title Заголовок Вашей статьи
-                                .preview__date 05.05.2018
-                                a.preview-add(href="#")
-                    .col-md-5.col-sm-12.col-lg-4.m-2.m-lg-0
-                        .preview
-                            a.preview__link(href="#")
-                            img.preview__img(src="img/preview3.jpg", alt="Превью новости")
-                            .preview__body
-                                .preview__title Заголовок Вашей статьи
-                                .preview__date 05.05.2018
-                                a.preview-add(href="#")
-                                
-            include ../blocks/article-slider/article-slider.jade
-            
-            .container.mt-5
-                .row.justify-content-center
-                    .col-md-5.col-sm-12.col-lg-4.m-2.m-lg-0
-                        .preview
-                            a.preview__link(href="#")
-                            img.preview__img(src="img/preview4.jpg", alt="Превью новости")
-                            .preview__body
-                                .preview__title Заголовок Вашей статьи
-                                .preview__date 05.05.2018
-                                a.preview-add(href="#")
-                            
-                    .col-md-5.col-sm-12.col-lg-4.m-2.m-lg-0
-                        .preview
-                            a.preview__link(href="#")
-                            img.preview__img(src="img/preview5.jpg", alt="Превью новости")
-                            .preview__body
-                                .preview__title Заголовок Вашей статьи
-                                .preview__date 05.05.2018
-                                a.preview-add(href="#")
-                    .col-md-5.col-sm-12.col-lg-4.m-2.m-lg-0
-                        .preview
-                            a.preview__link(href="#")
-                            img.preview__img(src="img/preview6.jpg", alt="Превью новости")
-                            .preview__body
-                                .preview__title Заголовок Вашей статьи
-                                .preview__date 05.05.2018
-                                a.preview-add(href="#")
+                
+                
             .container-fluid.px-0.position-relative
-              iframe.map(src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.224656727462!2d37.620089504565215!3d55.75459950498301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a5a738fa419%3A0x7c347d506b52311f!2z0JrRgNCw0YHQvdCw0Y8g0J_Qu9C-0YnQsNC00Yw!5e0!3m2!1sru!2sru!4v1528209032660', frameborder='0', style='border:0', allowfullscreen='')
-              form.container.input-form
-                  .row
-                      .col-md-6
-                          input.input.mb-2(type="text", required, placeholder="Имя", name="")
-                          input.input.mb-2(type="text", required, placeholder="Телефон", name="") 
-                          input.input(type="text", placeholder="Email (по желанию)" name="")
-                      .col-md-6
-                          textarea.input.input_textarea.mb-2(required, placeholder="Комментарий", name="")
-                          .d-flex.justify-content-between.align-items-center
-                              .position-relative
-                                  input(type="checkbox", required, name="", id="agree")
-                                  label.input.input_checbox(for="agree")
-                              span(href="#") Согласие на обработку 
-                              a.link.link_agree(href="#") персональных данных
-                              button.button.button_border-white.button_small OK
-            
-        
+                .title
+                    h2.title__text контакты
+                iframe.map(src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.224656727462!2d37.620089504565215!3d55.75459950498301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a5a738fa419%3A0x7c347d506b52311f!2z0JrRgNCw0YHQvdCw0Y8g0J_Qu9C-0YnQsNC00Yw!5e0!3m2!1sru!2sru!4v1528209032660', frameborder='0', style='border:0', allowfullscreen='')
+                form.container.input-form
+                    .row
+                        .col-md-6
+                            input.input.mb-2(type="text", required, placeholder="Имя", name="")
+                            input.input.mb-2(type="text", required, placeholder="Телефон", name="") 
+                            input.input(type="text", placeholder="Email (по желанию)" name="")
+                        .col-md-6
+                            textarea.input.input_textarea.mb-2(required, placeholder="Комментарий", name="")
+                            .d-flex.justify-content-between.align-items-center
+                                .position-relative
+                                    input(type="checkbox", required, name="", id="agree")
+                                    label.input.input_checbox(for="agree")
+                                span(href="#") Согласие на обработку 
+                                a.link.link_agree(href="#") персональных данных
+                                button.button.button_border-white.button_small OK
+
+
         include ../blocks/footer/footer.jade

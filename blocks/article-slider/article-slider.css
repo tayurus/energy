@@ -59,6 +59,15 @@
     background: transparent !important;
 }
 
+@media (max-width:1750px),(max-device-width:1750px) {
+    .article-slider .owl-next{
+        right: 2%;
+    }
+    .article-slider .owl-prev{
+        left: 2%;
+    }
+}
+
 @media (max-width:1050px),(max-device-width:1050px) {
   .articles-slider__title {
     margin-bottom: 10px;
@@ -68,10 +77,4 @@
     margin-bottom: 10px;
 }
 
-  .article-slider .owl-next{
-      right: 2%;
-  }
-  .article-slider .owl-prev{
-      left: 2%;
-  }
 }
