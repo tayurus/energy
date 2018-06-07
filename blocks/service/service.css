@@ -157,6 +157,13 @@
   background: url("img/service-white.png") no-repeat center / contain;
 }
 
+@media (max-width:1600px),(max-device-width:1600px) {
+    .service:hover .button_border-white {
+      font-size: 24px;
+      padding: 14px 30px;
+    }
+}
+
 @media (max-width:1400px), (max-device-width:1400px) {
   .service__title {
     font-size: 20px;
@@ -167,7 +174,7 @@
 @media (max-width:1300px), (max-device-width:1300px) {
   .service:hover .button_border-white {
     font-size: 18px;
-    padding: 10px 20px;
+    padding: 10px;
   }
   .service:hover .service__info {
     height: 629px;
