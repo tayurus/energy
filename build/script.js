@@ -9,7 +9,9 @@ $('.article-slider').owlCarousel({
     items: 1,
     nav: true,
     navText: ["<img src='img/arrow-left.png'>","<img src='img/arrow-right.png'>"],
-    dots: false
+    dots: false,
+    mouseDrag: false,
+    touchDrag: true
 })
 
 $('.header__menu-icon, .left__menu').click(function(){

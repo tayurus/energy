@@ -111,7 +111,7 @@
 .service__info-icon {
   display: none;
   position: absolute;
-  bottom: 19%;
+  bottom: 22%;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -170,7 +170,7 @@
     padding: 10px;
   }
   .service:hover .service__info {
-    height: 629px;
+    height: 545px;
   }
   .service:hover .service__info-title {
     font-size: 38px;

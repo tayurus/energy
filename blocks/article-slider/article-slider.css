@@ -3,6 +3,11 @@
     margin: 0px auto;
 }
 
+.article-slider.owl-stage, .owl-carousel.owl-drag .owl-item{
+    -ms-touch-action: auto;
+        touch-action: auto;
+}
+
 
 .article-slider__item{
     position: relative;
